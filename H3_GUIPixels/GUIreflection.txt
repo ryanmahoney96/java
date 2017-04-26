@@ -1,0 +1,14 @@
+
+Ryan Mahoney
+
+What do you think they will need to know about it?
+-They should know that there are a handful of steps that they could take to condense the code and make it more modular. For instance, I think the sliders could have been reused if the numbers and colors they chaanged were dependent on the currently highlighted frame/dialog/panel. This is the case for a couple of the buttons and file choosers as well. 
+
+How will knowing about the evolution help them add to your code?
+-Actually, I think it would help them slim down the code more. When I was making all of the dialog boxes I added every element I would need to compose the layout. The problem with this is that I probably could have used fewer buttons, sliders, and labels. In terms of the future, I think another developer could add things in the same way, as it was easy to get a dialog box composed in this way.
+
+Record the things that you learned in case your viewers don't know about them.
+-I feel confident using the swing and awt libraries for GUI development now. I also feel more confident separating GUI features from the underlying logic, though I feel that I probably could have done a better job.
+
+Tell me about why you made the decisions you did and why you made any changes to your original code.
+-Toward the end I realized that I was handling all of my button clicks inside the action listener method, and I felt that that was hard to read. After seeing this, I moved almost all of the functional elements into independent methods, which I felt made the program more legible to a first time user. I also condensed the initialization of the sliders and buttons into functions, because I saw that many of the steps necessary to getting them started were identical between buttons.
